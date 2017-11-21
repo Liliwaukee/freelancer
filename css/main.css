@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 12ceffb6361dfe9ff06eaf44d500f9d19dabfa47
 /*ESTILOS GENERALES*/
 * {
   margin: 0;
@@ -46,13 +50,21 @@ hr.line {
 
 /*MENÚ DE NAVEGACIÓN*/
 nav {
+<<<<<<< HEAD
 /*  background-color: #2D3E4F;*/
   background-color: red;
+=======
+  background-color: #2D3E4F;
+>>>>>>> 12ceffb6361dfe9ff06eaf44d500f9d19dabfa47
   color: white;
   height: 18%;
   width: 100%;
   box-sizing: border-box;
+<<<<<<< HEAD
   display: fixed;
+=======
+  display: block;
+>>>>>>> 12ceffb6361dfe9ff06eaf44d500f9d19dabfa47
 }
 
 nav .title {
@@ -69,11 +81,14 @@ nav .menu {
   padding-left: 12%;
 }
 
+<<<<<<< HEAD
 nav a {
   text-decoration: none;
   color: white;
 }
 
+=======
+>>>>>>> 12ceffb6361dfe9ff06eaf44d500f9d19dabfa47
 nav .menu li {
   list-style-type: none;
   display: inline-block;
@@ -83,7 +98,11 @@ nav .menu li {
   letter-spacing: 1px;
 }
 
+<<<<<<< HEAD
 nav .menu a:hover {
+=======
+nav .menu li:hover {
+>>>>>>> 12ceffb6361dfe9ff06eaf44d500f9d19dabfa47
   color: #28BB9C;
 }
 
