@@ -46,12 +46,13 @@ hr.line {
 
 /*MENÚ DE NAVEGACIÓN*/
 nav {
-  background-color: #2D3E4F;
+/*  background-color: #2D3E4F;*/
+  background-color: red;
   color: white;
   height: 18%;
   width: 100%;
   box-sizing: border-box;
-  display: block;
+  display: fixed;
 }
 
 nav .title {
