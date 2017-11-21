@@ -13,7 +13,7 @@ Lo más importante en el reto es la maquetación.
 ## Construcción del sitio web
 
 * La maquetación se dividió en 6 secciones con etiquetas semánticas:
-   **Nav
+   **_Nav_
    **Main
    **Section (3)
    **Footer
