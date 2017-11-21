@@ -1,0 +1,298 @@
+/*ESTILOS GENERALES*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+}
+
+.blue {
+  color: #222529;
+}
+
+.green {
+  color: #28BB9C;
+}
+
+.white {
+  color: white;
+}
+
+.green-background {
+  background-color: #28BB9C;
+  color: white;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  padding:100px 0 0 0;
+}
+
+.star {
+  display: block;
+}
+
+hr.line {
+  width: 100px;
+  border-top: solid 4px;
+  display: inline-block;
+  margin: 10px auto 10px;
+}
+
+/*MENÚ DE NAVEGACIÓN*/
+nav {
+  background-color: #2D3E4F;
+  color: white;
+  height: 18%;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+nav .title {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+nav .menu {
+  width: 50%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 12%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav .menu li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 11% 0 0 3%;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+nav .menu a:hover {
+  color: #28BB9C;
+}
+
+nav .title h1 {
+  padding: 5% 0 0 13%;
+  font-size: 32px;
+  text-align: left;
+}
+
+/*SECCIÓN PRINCIPAL*/
+.cartoon img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 7%;
+}
+
+main .principal {
+  font-size: 75px;
+  font-weight: 700;
+  padding: 32px 0 0 0;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.content i {
+  padding: 23px 0 20px 0;
+}
+
+main .content .themes {
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  padding: 0 0 100px 0;
+}
+
+/*SECCIÓN PORTFOLIO*/
+.portfolio-images {
+    padding-bottom: 120px;
+}
+
+.portfolio-images img{
+    width: 27%;
+    padding: 13px;
+}
+
+/* SECCIÓN ABOUT*/
+.about {
+  height: 550px;
+  width: 100%
+}
+
+.text {
+  width:61%;
+  display: block;
+  margin: 0 auto;
+}
+.column {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 20px 40px 20px;
+  font-family: 'Lato', sans-serif;
+  float: left;
+  box-sizing: border-box;
+}
+
+.about button {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.about button:hover{
+  background-color: white;
+  color: #28BB9C;
+}
+
+button span {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+/*SECCIÓN CONTACT*/
+.contact .form {
+  width: 57%;
+  margin: 0 auto;
+}
+
+input {
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  resize: none;
+  border-radius: 0;
+  width: 100%;
+}
+
+.form label {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #868E95;
+  display: block;
+  text-align: left;
+  letter-spacing: -1px;
+  padding-top: 25px;
+}
+
+input:focus, textarea:focus {
+  background: rgb(0,0,0);
+  outline: none;
+}
+
+button {
+  background-color: #28BB9C;
+  border: none;
+  color: white;
+  padding: 13px 18px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 19px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: block;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  border-radius: 3px;
+}
+
+/*SECCIÓN FOOTER*/
+footer {
+  background-color: #2D3E4F;
+  height: 42%;
+  padding: 40px 80px;
+  margin-top: 110px;
+}
+
+footer > div {
+  width: 33%;
+  padding: 10px 0 30px 0;
+  display: inline-block;
+  line-height: 1.4;
+  float: left;
+}
+
+footer h3 {
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer-title {
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.copyright {
+  font-size: 15px;
+  padding: 55px 0 0 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  clear: both;
+  display: block;
+}
+
+/*Iconos de redes sociales*/
+.footer-about a {
+  text-decoration: none;
+}
+
+.social-media ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: inline-block;
+  line-height: 46px;
+  text-align: center;
+}
+
+.circle:hover {
+  background-color: white;
+  color: #28BB9C;
+}
+
+.social-media a {
+    color: white;
+    text-align: center;
+}
+=======
+/*
+ * Estilos de tu proyecto
+ */
+>>>>>>> cc13c42887357bd444734244d7641b8d851f2ecc
