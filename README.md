@@ -12,12 +12,12 @@ Lo más importante en el reto es la maquetación.
 
 ## Construcción del sitio web
 
-* La maquetación se dividió en 6 secciones con etiquetas semánticas:
+La maquetación se dividió en 6 secciones con etiquetas semánticas:
 
-   **Nav
-   **Main
-   **Section (3)   
-   **Footer
+   *Nav
+   *Main
+   *Section (3)   
+   *Footer
 
 Para el sitio necesitamos la tipografía Montserrat y los íconos de FontAwersome, ambos se van a enlazar dentro de la etiqueta "head". La tipografía la obtenemos de Google Fonts y en la página de FontAwersome descargamos el zip.
 
